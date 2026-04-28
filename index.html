@@ -590,6 +590,199 @@
     <h2 style="font-size:1.4rem;font-weight:800;color:#FF9800;margin-bottom:6px">Allenamento Verbi</h2>
     <p style="color:#889;font-size:.85rem">Practica TODOS los verbos y conjugaciones de las 13 lecciones</p>
   </div>
+
+  <!-- CUADRO DE REFERENCIA DE VERBOS -->
+  <details style="margin-bottom:24px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.1);border-radius:16px;overflow:hidden">
+    <summary style="padding:16px 20px;cursor:pointer;font-weight:700;font-size:1.05rem;color:#FF9800;list-style:none;display:flex;align-items:center;gap:10px;user-select:none">
+      <span style="font-size:1.2rem">📖</span> Cuadro de Referencia: Tipos de Verbos y Conjugaciones <span style="margin-left:auto;font-size:.75rem;color:#667;font-weight:400">(clic para abrir/cerrar)</span>
+    </summary>
+    <div style="padding:0 20px 20px">
+
+      <!-- ¿Cómo saber el tipo? -->
+      <div style="padding:14px 18px;background:rgba(255,152,0,0.1);border:1px solid rgba(255,152,0,0.25);border-radius:12px;margin-bottom:18px">
+        <p style="color:#FF9800;font-weight:700;font-size:.95rem;margin-bottom:8px">¿Cómo saber de qué tipo es un verbo?</p>
+        <p style="color:#ffcc80;font-size:.88rem;line-height:1.8">
+          Mira las <b style="color:#fff">últimas 3 letras</b> del infinitivo:<br>
+          <b style="color:#66bb6a">-ARE</b> → parlare, mangiare, lavorare (la mayoría de verbos italianos)<br>
+          <b style="color:#42a5f5">-ERE</b> → prendere, chiudere, leggere<br>
+          <b style="color:#ce93d8">-IRE</b> → partire, dormire, aprire (conjugación normal)<br>
+          <b style="color:#f48fb1">-IRE con -ISCO</b> → capire, finire, preferire (agregan -ISC- en io, tu, lui, loro)<br>
+          <b style="color:#ef9a9a">Irregolari</b> → essere, avere, stare, bere (hay que memorizarlos)<br>
+          <b style="color:#80cbc4">Riflessivi</b> → terminan en <b style="color:#fff">-ARSI / -ERSI / -IRSI</b> y usan mi/ti/si/ci/vi/si → chiamarsi
+        </p>
+      </div>
+
+      <!-- Nota sobre -ISCO -->
+      <div style="padding:14px 18px;background:rgba(233,30,99,0.08);border:1px solid rgba(233,30,99,0.25);border-radius:12px;margin-bottom:18px">
+        <p style="color:#f48fb1;font-weight:700;font-size:.95rem;margin-bottom:8px">¿-IRE normal o -IRE con -ISCO? (la pregunta difícil)</p>
+        <p style="color:#e0e0e0;font-size:.88rem;line-height:1.8">
+          No hay una regla fija para saber cuál es cuál — como dijiste, es cuestión de cómo "suena". Pero hay pistas:<br>
+          <b style="color:#ce93d8">-IRE normal</b> (sin -ISCO): partire, dormire, offrire, aprire, sentire → generalmente verbos cortos o muy comunes.<br>
+          <b style="color:#f48fb1">-IRE con -ISCO</b>: capire, finire, preferire, pulire, spedire → generalmente verbos más largos o que suenan raro sin -ISC-.<br>
+          <span style="color:#FF9800">Truco:</span> Prueba decir "io ___o" sin el -ISC-. Si suena raro (ej: "io capo"? "io fino"?) → probablemente es -ISCO. Si suena normal (ej: "io parto", "io dormo") → es -IRE normal.
+        </p>
+      </div>
+
+      <!-- TABLA DE TERMINACIONES -->
+      <h3 style="color:#66bb6a;font-size:.95rem;font-weight:700;margin-bottom:10px;padding-left:10px;border-left:3px solid #66bb6a">Terminaciones por tipo de verbo</h3>
+      <div style="overflow-x:auto;margin-bottom:20px">
+        <table class="pron-table" style="min-width:650px">
+          <tr>
+            <th>Pronome</th>
+            <th style="color:#66bb6a">-ARE<br><span style="font-size:.65rem;font-weight:400">parlare</span></th>
+            <th style="color:#42a5f5">-ERE<br><span style="font-size:.65rem;font-weight:400">prendere</span></th>
+            <th style="color:#ce93d8">-IRE<br><span style="font-size:.65rem;font-weight:400">partire</span></th>
+            <th style="color:#f48fb1">-IRE (-ISCO)<br><span style="font-size:.65rem;font-weight:400">capire</span></th>
+            <th style="color:#80cbc4">Riflessivo<br><span style="font-size:.65rem;font-weight:400">chiamarsi</span></th>
+          </tr>
+          <tr>
+            <td class="es" style="font-weight:600">Io</td>
+            <td class="it">parl<b style="color:#66bb6a">o</b></td>
+            <td class="it">prend<b style="color:#42a5f5">o</b></td>
+            <td class="it">part<b style="color:#ce93d8">o</b></td>
+            <td class="it">cap<b style="color:#f48fb1">isco</b></td>
+            <td class="it"><b style="color:#80cbc4">mi</b> chiam<b>o</b></td>
+          </tr>
+          <tr>
+            <td class="es" style="font-weight:600">Tu</td>
+            <td class="it">parl<b style="color:#66bb6a">i</b></td>
+            <td class="it">prend<b style="color:#42a5f5">i</b></td>
+            <td class="it">part<b style="color:#ce93d8">i</b></td>
+            <td class="it">cap<b style="color:#f48fb1">isci</b></td>
+            <td class="it"><b style="color:#80cbc4">ti</b> chiam<b>i</b></td>
+          </tr>
+          <tr>
+            <td class="es" style="font-weight:600">Lui / Lei</td>
+            <td class="it">parl<b style="color:#66bb6a">a</b></td>
+            <td class="it">prend<b style="color:#42a5f5">e</b></td>
+            <td class="it">part<b style="color:#ce93d8">e</b></td>
+            <td class="it">cap<b style="color:#f48fb1">isce</b></td>
+            <td class="it"><b style="color:#80cbc4">si</b> chiam<b>a</b></td>
+          </tr>
+          <tr>
+            <td class="es" style="font-weight:600">Noi</td>
+            <td class="it">parl<b style="color:#66bb6a">iamo</b></td>
+            <td class="it">prend<b style="color:#42a5f5">iamo</b></td>
+            <td class="it">part<b style="color:#ce93d8">iamo</b></td>
+            <td class="it">cap<b style="color:#f48fb1">iamo</b></td>
+            <td class="it"><b style="color:#80cbc4">ci</b> chiam<b>iamo</b></td>
+          </tr>
+          <tr>
+            <td class="es" style="font-weight:600">Voi</td>
+            <td class="it">parl<b style="color:#66bb6a">ate</b></td>
+            <td class="it">prend<b style="color:#42a5f5">ete</b></td>
+            <td class="it">part<b style="color:#ce93d8">ite</b></td>
+            <td class="it">cap<b style="color:#f48fb1">ite</b></td>
+            <td class="it"><b style="color:#80cbc4">vi</b> chiam<b>ate</b></td>
+          </tr>
+          <tr>
+            <td class="es" style="font-weight:600">Loro</td>
+            <td class="it">parl<b style="color:#66bb6a">ano</b></td>
+            <td class="it">prend<b style="color:#42a5f5">ono</b></td>
+            <td class="it">part<b style="color:#ce93d8">ono</b></td>
+            <td class="it">cap<b style="color:#f48fb1">iscono</b></td>
+            <td class="it"><b style="color:#80cbc4">si</b> chiam<b>ano</b></td>
+          </tr>
+        </table>
+      </div>
+
+      <div style="padding:10px 14px;background:rgba(255,152,0,0.08);border-left:3px solid #FF9800;border-radius:0 8px 8px 0;font-size:.85rem;color:#ffcc80;margin-bottom:20px">
+        <b>Fíjate:</b> NOI y VOI son iguales en -IRE y -ISCO (cap<b>iamo</b>, cap<b>ite</b>). El -ISC- solo aparece en io, tu, lui/lei y loro.
+      </div>
+
+      <!-- IRREGULARES -->
+      <h3 style="color:#ef9a9a;font-size:.95rem;font-weight:700;margin-bottom:10px;padding-left:10px;border-left:3px solid #ef5350">Verbos Irregulares (hay que memorizarlos)</h3>
+      <div style="overflow-x:auto;margin-bottom:20px">
+        <table class="pron-table" style="min-width:600px">
+          <tr>
+            <th>Pronome</th>
+            <th style="color:#ef9a9a">ESSERE<br><span style="font-size:.65rem;font-weight:400">ser/estar</span></th>
+            <th style="color:#ef9a9a">AVERE<br><span style="font-size:.65rem;font-weight:400">tener</span></th>
+            <th style="color:#ef9a9a">STARE<br><span style="font-size:.65rem;font-weight:400">estar</span></th>
+            <th style="color:#ef9a9a">BERE<br><span style="font-size:.65rem;font-weight:400">beber</span></th>
+          </tr>
+          <tr><td class="es" style="font-weight:600">Io</td><td class="it">sono</td><td class="it">ho</td><td class="it">sto</td><td class="it">bevo</td></tr>
+          <tr><td class="es" style="font-weight:600">Tu</td><td class="it">sei</td><td class="it">hai</td><td class="it">stai</td><td class="it">bevi</td></tr>
+          <tr><td class="es" style="font-weight:600">Lui / Lei</td><td class="it">è</td><td class="it">ha</td><td class="it">sta</td><td class="it">beve</td></tr>
+          <tr><td class="es" style="font-weight:600">Noi</td><td class="it">siamo</td><td class="it">abbiamo</td><td class="it">stiamo</td><td class="it">beviamo</td></tr>
+          <tr><td class="es" style="font-weight:600">Voi</td><td class="it">siete</td><td class="it">avete</td><td class="it">state</td><td class="it">bevete</td></tr>
+          <tr><td class="es" style="font-weight:600">Loro</td><td class="it">sono</td><td class="it">hanno</td><td class="it">stanno</td><td class="it">bevono</td></tr>
+        </table>
+      </div>
+
+      <!-- LISTA COMPLETA DE VERBOS POR TIPO -->
+      <h3 style="color:#42a5f5;font-size:.95rem;font-weight:700;margin-bottom:10px;padding-left:10px;border-left:3px solid #42a5f5">Todos los verbos de las 13 lecciones, por tipo</h3>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:10px">
+        <div style="background:rgba(102,187,106,0.08);border:1px solid rgba(102,187,106,0.2);border-radius:12px;padding:14px">
+          <p style="color:#66bb6a;font-weight:700;font-size:.85rem;margin-bottom:8px">-ARE (15 verbos)</p>
+          <p style="color:#aab;font-size:.82rem;line-height:1.9">
+            parlare <span style="color:#556">(hablar)</span><br>
+            mangiare <span style="color:#556">(comer)</span><br>
+            lavorare <span style="color:#556">(trabajar)</span><br>
+            usare <span style="color:#556">(usar)</span><br>
+            arrivare <span style="color:#556">(llegar)</span><br>
+            tornare <span style="color:#556">(volver)</span><br>
+            guardare <span style="color:#556">(mirar)</span><br>
+            litigare <span style="color:#556">(pelear)</span><br>
+            salutare <span style="color:#556">(saludar)</span><br>
+            entrare <span style="color:#556">(entrar)</span><br>
+            pagare <span style="color:#556">(pagar)</span><br>
+            ordinare <span style="color:#556">(pedir)</span><br>
+            cucinare <span style="color:#556">(cocinar)</span><br>
+            abitare <span style="color:#556">(vivir/habitar)</span><br>
+            studiare <span style="color:#556">(estudiar)</span>
+          </p>
+        </div>
+        <div style="background:rgba(66,165,245,0.08);border:1px solid rgba(66,165,245,0.2);border-radius:12px;padding:14px">
+          <p style="color:#42a5f5;font-weight:700;font-size:.85rem;margin-bottom:8px">-ERE (6 verbos)</p>
+          <p style="color:#aab;font-size:.82rem;line-height:1.9">
+            prendere <span style="color:#556">(tomar)</span><br>
+            chiudere <span style="color:#556">(cerrar)</span><br>
+            ricevere <span style="color:#556">(recibir)</span><br>
+            vivere <span style="color:#556">(vivir)</span><br>
+            leggere <span style="color:#556">(leer)</span><br>
+            scrivere <span style="color:#556">(escribir)</span>
+          </p>
+        </div>
+        <div style="background:rgba(206,147,216,0.08);border:1px solid rgba(206,147,216,0.2);border-radius:12px;padding:14px">
+          <p style="color:#ce93d8;font-weight:700;font-size:.85rem;margin-bottom:8px">-IRE normal (4 verbos)</p>
+          <p style="color:#aab;font-size:.82rem;line-height:1.9">
+            partire <span style="color:#556">(partir/salir)</span><br>
+            dormire <span style="color:#556">(dormir)</span><br>
+            offrire <span style="color:#556">(ofrecer)</span><br>
+            aprire <span style="color:#556">(abrir)</span>
+          </p>
+        </div>
+        <div style="background:rgba(244,143,177,0.08);border:1px solid rgba(244,143,177,0.2);border-radius:12px;padding:14px">
+          <p style="color:#f48fb1;font-weight:700;font-size:.85rem;margin-bottom:8px">-IRE con -ISCO (5 verbos)</p>
+          <p style="color:#aab;font-size:.82rem;line-height:1.9">
+            capire <span style="color:#556">(entender)</span><br>
+            finire <span style="color:#556">(terminar)</span><br>
+            preferire <span style="color:#556">(preferir)</span><br>
+            pulire <span style="color:#556">(limpiar)</span><br>
+            spedire <span style="color:#556">(enviar)</span>
+          </p>
+        </div>
+        <div style="background:rgba(239,154,154,0.08);border:1px solid rgba(239,154,154,0.2);border-radius:12px;padding:14px">
+          <p style="color:#ef9a9a;font-weight:700;font-size:.85rem;margin-bottom:8px">Irregolari (4 verbos)</p>
+          <p style="color:#aab;font-size:.82rem;line-height:1.9">
+            essere <span style="color:#556">(ser/estar)</span><br>
+            avere <span style="color:#556">(tener)</span><br>
+            stare <span style="color:#556">(estar)</span><br>
+            bere <span style="color:#556">(beber)</span>
+          </p>
+        </div>
+        <div style="background:rgba(128,203,196,0.08);border:1px solid rgba(128,203,196,0.2);border-radius:12px;padding:14px">
+          <p style="color:#80cbc4;font-weight:700;font-size:.85rem;margin-bottom:8px">Riflessivo (1 verbo)</p>
+          <p style="color:#aab;font-size:.82rem;line-height:1.9">
+            chiamarsi <span style="color:#556">(llamarse)</span><br>
+            <span style="color:#556;font-size:.78rem">Usa: mi/ti/si/ci/vi/si + verbo -ARE</span>
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </details>
   <div class="score-bar">
     <div class="score-item green"><div class="num" id="vScoreOk">0</div><div class="label">Correctas</div></div>
     <div class="score-item"><div class="num" id="vScoreTotal">0</div><div class="label">Total</div></div>
